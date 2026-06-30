@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float ph;
+
+    printf("Enter pH Value: ");
+    scanf("%f", &ph);
+
+    if(ph >= 6.5 && ph <= 8.5)
+        printf("Water is Safe\n");
+    else
+        printf("Water Quality Poor\n");
+
+    return 0;
+}
