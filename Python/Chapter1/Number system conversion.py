@@ -1,0 +1,6 @@
+print(0b110)
+print(0B1011)
+print(0x110)
+print(0X1011)
+print(0o110)
+print(0O1011)
